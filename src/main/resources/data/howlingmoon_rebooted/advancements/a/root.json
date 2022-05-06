@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "howlingmoon_rebooted:silver_ingot"
+    },
+    "title": "Howling moon Rebooted",
+    "description":"",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "howlingmoon_rebooted:textures/gui/advancements/backgrounds/silver.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "howlingmoon_rebooted:raw_silver"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

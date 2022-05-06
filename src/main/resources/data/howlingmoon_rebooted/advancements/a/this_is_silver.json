@@ -1,0 +1,27 @@
+{
+  "parent": "howlingmoon_rebooted:a/root",
+  "display": {
+    "icon": {
+      "item": "howlingmoon_rebooted:raw_silver"
+    },
+    "title": "This si silver?",
+    "description":"collect a silver ingot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "howlingmoon_rebooted:raw_silver"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "howlingmoon_rebooted:a/this_is_silver",
+  "display": {
+    "icon": {
+      "item": "howlingmoon_rebooted:silver_ingot"
+  },
+    "title": "Yea is silver",
+    "description":"smelt a raw silver",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "howlingmoon_rebooted:silver_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "howlingmoon_rebooted:a/this_is_silver",
+  "display": {
+    "icon": {
+      "item": "howlingmoon_rebooted:dried_oak_log"
+    },
+    "title": "why the oak looks so dried?",
+    "description":"collect a dried oak",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "howlingmoon_rebooted:dried_oak_log"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
